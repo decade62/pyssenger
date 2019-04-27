@@ -15,7 +15,7 @@ class PyssMain(wx.Frame):
     username = None
     PORT = None
     IP = None
-    HOST = '127.0.0.1'
+    HOST = '' # Empty host indicates that server listens to all IPs
     WRITEREADY = False  # Indication that write stream is ready to write
     SOCK_READER = None  # Active stream reader
 
